@@ -1,0 +1,8 @@
+<div>
+  <h1>这里是输出属性demo学习模块</h1>
+  <pre>
+    从子组件传递给父组件demo
+    这里是父组件的price价格({{parentPrice | number:'2.2-2'}})
+  </pre>
+  <app-price-quote (priceChange)="onPriceChangeHandler($event)"></app-price-quote>
+</div>

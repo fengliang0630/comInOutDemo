@@ -1,0 +1,15 @@
+<div>
+  <h1>onChange钩子demo</h1>
+  <h4>用户名：{{userName}}</h4>
+  <h4>
+    年龄：<input type="text" [(ngModel)]="age"/>
+  </h4>
+  <h4>
+    用户孩子：
+    <p *ngFor="let child of childs">孩子姓名:{{child.name}}</p>
+  </h4>
+  <h4>
+    <button (click)="changeObj()">修改对象</button>
+    <span *ngFor="let c1 of c">{{c1.name}}</span>
+  </h4>
+</div>

@@ -1,0 +1,8 @@
+<div>
+  <h1>这里是输入属性demo学习模块</h1>
+  <pre>
+    从父组件传递参数给子组件demo
+    这里是父组件的price价格({{parentPrice | number:'2.2-2'}})
+  </pre>
+  <app-order [childPrice]="parentPrice"></app-order>
+</div>
