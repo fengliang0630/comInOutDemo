@@ -1,23 +1,21 @@
 我的Angular2组件输入输出学习实例
 
 
-<pre>
-	<h1>输入输出测试内容</h1>
+	&lt;h1&gt;输入输出测试内容&lt;/h1&gt;
 	app-input-demo
-	<app-output-demo></app-output-demo>
-	<br><br><br><br><br><br>
-	<app-parent></app-parent>
+	&lt;app-output-demo&gt;&lt;/app-output-demo&gt;
+	&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+	&lt;app-parent&gt;&lt;/app-parent&gt;
 
-	<h1>钩子生命周期 以及执行顺序</h1>
-	<app-life [name]="title"></app-life>
+	&lt;h1&gt;钩子生命周期 以及执行顺序&lt;/h1&gt;
+	&lt;app-life [name]="title"&gt;&lt;/app-life&gt;
 
-	<h1>onChange钩子测试</h1>
-	<app-change-parent></app-change-parent>
+	&lt;h1&gt;onChange钩子测试&lt;/h1&gt;
+	&lt;app-change-parent&gt;&lt;/app-change-parent&gt;
 
-	<h1>viewChild装饰器测试</h1>
-	<app-view-child-parent></app-view-child-parent>
+	&lt;h1&gt;viewChild装饰器测试&lt;/h1&gt;
+	&lt;app-view-child-parent&gt;&lt;/app-view-child-parent&gt;
 
-	<h1>ng-content投影</h1>
-	<app-content-parent></app-content-parent>
-</pre>
+	&lt;h1&gt;ng-content投影&lt;/h1&gt;
+	&lt;app-content-parent&gt;&lt;/app-content-parent&gt;
 
