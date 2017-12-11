@@ -3,8 +3,7 @@
 
 <pre>
 	<h1>输入输出测试内容</h1>
-	<app-input-demo></app-input-demo>
-	<br><br><br><br><br><br>
+	app-input-demo
 	<app-output-demo></app-output-demo>
 	<br><br><br><br><br><br>
 	<app-parent></app-parent>
